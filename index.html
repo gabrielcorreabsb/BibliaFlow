@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblia Flow - ACF</title>
+  <link rel="stylesheet" href="./assets/css/biblia.css">
+</head>
+<body>
+<div class="container">
+  <h2>Leitura Bíblica Diária</h2>
+
+  <div class="progress-section">
+    <h3>Progresso Anual</h3>
+    <p>Data: <span id="current-date">--/--/----</span></p>
+    <div class="progress-bar">
+      <div class="progress" id="progress-bar"></div>
+    </div>
+    <p>Dia <span id="current-day">0</span> de 365 (<span id="progress-percentage">0%</span>)</p>
+  </div>
+
+  <div class="reading-section">
+    <h3>Leitura de Hoje</h3>
+    <div id="daily-reading">
+      <div class="loading">Carregando leitura do dia...</div>
+    </div>
+  </div>
+</div>
+
+<script src="./assets/js/biblia.js"></script>
+<script src="./assets/js/createUser.js"></script>
+</body>
+</html>
