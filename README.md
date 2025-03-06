@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # BibliaFlow
 
 > 📖 Uma jornada diária pela Bíblia: Leia a Bíblia completa em 365 dias com um sistema inteligente de acompanhamento e progresso.
