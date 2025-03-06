@@ -1,6 +1,7 @@
 # BibliaFlow
 
 > 📖 Uma jornada diária pela Bíblia: Leia a Bíblia completa em 365 dias com um sistema inteligente de acompanhamento e progresso.
+> Site: https://gabrielcorrea.tech/projetos/bibliaflow/
 
 ![GitHub](https://img.shields.io/github/license/gabrielcorreabsb/bibliaflow)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gabrielcorreabsb/bibliaflow)
