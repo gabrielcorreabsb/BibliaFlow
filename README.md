@@ -24,33 +24,19 @@ BibliaFlow é uma aplicação web moderna que oferece um plano estruturado de le
 
 ### Pré-requisitos
 
-\`\`\`bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/bibliaflow.git
 
 # Entre no diretório
 cd bibliaflow
-\`\`\`
-
-### 📁 Estrutura do Projeto
-
-\`\`\`
-bibliaflow/
-├── assets/
-│   ├── css/
-│   │   └── biblia.css
-│   └── js/
-│       ├── biblia.js
-│       └── createUser.js
-├── index.html
-└── README.md
-\`\`\`
 
 ### ⚙️ Configuração
 
 1. Crie uma conta em [www.abibliadigital.com.br](https://www.abibliadigital.com.br)
 2. Obtenha seu token de API
 3. Configure o token no arquivo \`biblia.js\`:
+
+const API_KEY = 'seu-token-aqui';
 
 ou
 
@@ -60,19 +46,17 @@ ou
 4. Obtenha seu token de API
 5. Configure o token no arquivo \`biblia.js\`:
 
-\`\`\`javascript
 const API_KEY = 'seu-token-aqui';
-\`\`\`
+
 
 ## 💻 Uso
 
-\`\`\`javascript
 // Criar novo usuário
 createUser("Nome", "email@exemplo.com", "senha123");
 
 // Iniciar leitura
 initializeReading();
-\`\`\`
+
 
 ## 🛠️ Tecnologias
 
